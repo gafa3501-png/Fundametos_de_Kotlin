@@ -41,14 +41,13 @@ fun esImpar(numero: Int): Boolean {
 }
 
 fun valorAbsoluto(numero: Int): Int {
-    TODO("Retornar el valor absoluto del numero")
-    return numero -- numero
+    return if (numero < 0) -numero else numero
 }
 
 fun maximo(a: Int, b: Int): Int {
-    TODO("Retornar el mayor entre a y b")
+    return if (a > b) a else b
 }
 
 fun minimo(a: Int, b: Int): Int {
-    TODO("Retornar el menor entre a y b")
+    return if (a < b) a else b
 }
